@@ -1,0 +1,67 @@
+#img{
+    width: 100px;
+    height: 100px;
+}
+#hero{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border: 2px solid rgb(150, 131, 131);
+   box-shadow: 5px 5px 5px rgb(189, 154, 154);
+}
+.about{
+    background-color:#00ffd959;
+}
+.p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.skills{
+    background: rgba(69, 63, 63, 0.842);
+}
+.skill{
+  color:white;
+}
+.card:hover{
+    background: rgb(101, 254, 36);
+}
+a{
+    text-decoration:none;
+}
+.contect{
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+button{
+    box-shadow:5px 5px 5px rgb(54, 54, 54);
+    background: #000;
+    color: white;
+}
+button:hover{
+    box-shadow:5px 5px 5px rgb(23, 90, 223);
+    background-color: rgb(245, 237, 4);
+    animation: btn 3s infinite linear;
+}
+@keyframes btn{
+    from{
+        width: 80px;
+        height:40px;
+    }
+    to {
+        width: 80px;
+        height:40px;
+    }
+}
+.img{
+    height: 100px;
+    width: 100px;
+    
+}
+.imgcenter{
+    align-items: center;
+    text-align: center;
+}
+.hakerrank{
+    width:30vw;
+    height: 30vh;
+}
